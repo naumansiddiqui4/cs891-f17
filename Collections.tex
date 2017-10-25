@@ -1,0 +1,747 @@
+%% vi5-template.tex
+%% 2017/09/25 - based on
+%%
+%% bare_jrnl_compsoc.tex
+%% V1.4b
+%% 2015/08/26
+%% by Michael Shell
+%% See:
+%% http://www.michaelshell.org/
+%% for current contact information.
+%%
+%% This is a skeleton file demonstrating the use of IEEEtran.cls
+%% (requires IEEEtran.cls version 1.8b or later) with an IEEE
+%% Computer Society journal paper.
+%%
+%% Support sites:
+%% http://www.michaelshell.org/tex/ieeetran/
+%% http://www.ctan.org/pkg/ieeetran
+%% and
+%% http://www.ieee.org/
+
+%%*************************************************************************
+%% Legal Notice:
+%% This code is offered as-is without any warranty either expressed or
+%% implied; without even the implied warranty of MERCHANTABILITY or
+%% FITNESS FOR A PARTICULAR PURPOSE!
+%% User assumes all risk.
+%% In no event shall the IEEE or any contributor to this code be liable for
+%% any damages or losses, including, but not limited to, incidental,
+%% consequential, or any other damages, resulting from the use or misuse
+%% of any information contained here.
+%%
+%% All comments are the opinions of their respective authors and are not
+%% necessarily endorsed by the IEEE.
+%%
+%% This work is distributed under the LaTeX Project Public License (LPPL)
+%% ( http://www.latex-project.org/ ) version 1.3, and may be freely used,
+%% distributed and modified. A copy of the LPPL, version 1.3, is included
+%% in the base LaTeX documentation of all distributions of LaTeX released
+%% 2003/12/01 or later.
+%% Retain all contribution notices and credits.
+%% ** Modified files should be clearly indicated as such, including  **
+%% ** renaming them and changing author support contact information. **
+%%*************************************************************************
+
+% *** Authors should verify (and, if needed, correct) their LaTeX system  ***
+% *** with the testflow diagnostic prior to trusting their LaTeX platform ***
+% *** with production work. The IEEE's font choices and paper sizes can   ***
+% *** trigger bugs that do not appear when using other class files.       ***                          ***
+% The testflow support page is at:
+% http://www.michaelshell.org/tex/testflow/
+
+\documentclass[11pt,journal,compsoc,onecolumn]{IEEEtran}
+%
+% If IEEEtran.cls has not been installed into the LaTeX system files,
+% manually specify the path to it like:
+% \documentclass[10pt,journal,compsoc]{../sty/IEEEtran}
+
+\usepackage{cite}
+\usepackage[pdftex]{graphicx}
+\usepackage{array}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks, linkcolor=red
+}
+\begin{document}
+%
+% paper title
+% Titles are generally capitalized except for words such as a, an, and, as,
+% at, but, by, for, in, nor, of, on, or, the, to and up, which are usually
+% not capitalized unless they are the first or last word of the title.
+% Linebreaks \\ can be used within to get better formatting as desired.
+% Do not put math or special symbols in the title.
+\title{Building Collections for 2014 Indian Parliamentary Elections\\
+CS 891, Fall 2017}
+
+\author{Mohammed Nauman Siddique\\
+Department of Computer Science\\
+Old Dominion University\\
+Norfolk, VA 23529\\
+msiddiqu@cs.odu.edu
+}
+
+% The paper headers
+\markboth{Siddique,Webarchiving Seminar, CS 891 Fall 2017}{}
+
+% make the title area
+\maketitle
+
+\section{Introduction}
+The report describes about creating collections on Archive-It, Webrecoder, WAIL, WARCreate. It explains about the experience of creating collections on each of the four different tools, compares them over their advantages and disadvantages for each other. It also explains about the tools in terms of capture,quality and ease of use. This report also highlights on the importance of building this collection and description of seeds in measuring the use of the collection.  
+
+\section{Seeds and Their Description}  
+\url{http://www.firstpost.com/politics/election-results-2014-historic-win-for-nda-with-336-seats-285-for-bjp-1526377.html}\\\hypersetup{
+  colorlinks, linkcolor=red
+}
+This seed presents a brief review of the 2014 Indian Parliamentary election results.\\
+\\
+\url{http://www.elections.in/parliamentary-constituencies/2014-election-results.html}\\
+This seed presents the detailed results listing the number of seats won by each political party and the winners at each constituency.\\
+\\
+\url{http://eci.nic.in/eci_main1/statistical_reportge2014.aspx}\\
+This seed is the official website of Election Commission of India with 2014 Indian Parliamentary Elections. This seed can be used to see all the detailed information about the election results.\\
+\\
+\url{https://india.blogs.nytimes.com/2014/04/08/a-primer-on-indias-parliamentary-elections/}\\
+This seed from New York Times sheds light on the Indian Democracy and its election procedure for new users who have a little understanding of Indian Democracy setup.\\
+\\
+\url{https://thediplomat.com/2014/02/in-indias-national-election-dont-trust-the-polls/}\\
+This seed deals with a very amusing problem of why the Election Polls conducted by multiple media houses fail to give a clear picture of Indian Election results.\\
+\\
+\\
+\url{https://en.wikipedia.org/wiki/Campaigning_in_the_Indian_general_election,_2014}\\
+This seed from Wikipedia is about the controversies and the discourse of campaigning for 2014 Indian Parliamentary Elections. It also sheds light on the two major contenstants for the position of Prime Minister. \\
+\\
+\url{http://www.constitutionnet.org/news/secularism-and-constitution-india-controversy-under-modi-administration}\\
+This seed deals with the question of what will change in India after Mr. Narendra Modi gets elected. It also backs up its headline by providing previous evidences from Mr. Narendra Modi's administration.\\
+\\
+\url{https://www.huffingtonpost.com/2014/05/15/narendra-modi-views_n_5316284.html}\\
+This seed from Huffington Post sheds light on why Mr. Narendra Modi leading India is so controversial.\\
+\\
+\\
+\url{http://in.reuters.com/article/india-election-adani-modi/billionaire-adani-prospers-as-modi-stresses-development-idINDEEA3908220140410}\\
+This seed from Reuters is about close ties between Mr. Narendra Modi and Industrialist Mr, Adani and how this relationship has formed a path for crony capitalism.\\
+\\
+\url{https://www.washingtonpost.com/world/indias-muslims-worried-about-controversial-hindu-leader-as-national-elections-begin/2014/04/14/663c6376-468b-4969-bcf9-75f2007c6d2f_story.html?utm_term=.56d247f0822c}\\
+This seed from The Washington Post tells us about what the Parliamentary Elections of 2014 mean to the minorities in India.\\
+\\
+\url{https://www.nytimes.com/interactive/2014/04/06/world/asia/modi-gujarat-riots-timeline.html}\\
+This seed from New York Times is about the series of events which took place in communal riots of 2002 in state of Gujrat. It is important as the current Prime Minister of India Mr. Narendra Modi was the Chief Minister (head of state) of Gujrat in 2002. There have been allegations on him for supporting the communal riots.\\
+\\
+\url{http://www.thehindu.com/news/national/no-guilty-feeling-about-gujarat-riots-says-modi/article4908704.ecel}\\
+This seed is from The Hindu, one of India's most reputed newpapers. It is sheds light on views of Mr. Narendra Modi on Gujrat communal riots.\\
+\\
+\url{https://www.truthofgujarat.com/truth-gujarat-narendra-modis-criminal-culpability-2002-riots/}\\
+This seed is a website that contains new articles related to Gujrat Communal Riots of 2002. It keeps track of all the news on this issue.\\
+\\
+\url{http://www.hindustantimes.com/static/uttar-pradesh-communal-riot/anatomy-of-a-riot/}\\
+This seed is from Hindustan Times, India's most read newspaper. It is a three- series investigative report on communal violences in India. It also explains how things have rolled about since Mr. Narendra Modi had come to power in 2014.\\
+\\
+\url{https://thewire.in/58640/black-money-investigation-a-feast-of-vultures/}\\
+This seed deals with one of the most talked about issue during the election campaign i.e. Black Money. this article tells us about what had been done by the government till August 2016 and also gives some insights about how this Government is benifitting Mr.Gautam Adani financially.\\
+\\
+% An example of a floating figure using the graphicx package.
+% Note that \label must occur AFTER (or within) \caption.
+% For figures, \caption should occur after the \includegraphics.
+% Note that IEEEtran v1.7 and later has special internal code that
+% is designed to preserve the operation of \label within \caption
+% even when the captionsoff option is in effect. However, because
+% of issues like this, it may be the safest practice to put all your
+% \label just after \caption rather than within \caption{}.
+%
+\section{Webrecorder}
+URL of the Collection\\
+\url{https://webrecorder.io/naumansiddiqui4/2014-indian-parliamentary-elections}\\
+The collection was initially built with sixteen seeds but now it contains twentyseven bookmarks. It has a collection size of 147.55 MB. It was my first collection and was fairly easy to build. It required me to just paste the seeds one after the other in the Webrecoder's Bookmark Bar. It has a very simple user interface which displays all the necessary informations like the seeds list and timestamp for the creation of the seed, original URL and the bookmarks show a detailed description of each seed.
+\begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Webrecorder_Homepage.PNG}
+  \caption{Webrecorder Collection Homepage}
+  \label{fig:1}
+\end{figure}
+\subsection{Review of  Seeds}
+\subsubsection{Seed 1}
+URL of Webrecorder: 
+\url{https://webrecorder.io/naumansiddiqui4/2014-indian-parliamentary-elections/20171009025120/http://www.firstpost.com/politics/election-results-2014-historic-win-for-nda-with-336-seats-285-for-bjp-1526377.html}\\
+This seed has been captured with all the resources. It is a scrollable page with a number of news on the single page.There issue related with the capture of this seed is it flickers a lot. The page turns blank and then reappers with the data and it happens after every few seconds.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Webrecorder_Seed1_1.PNG}
+  \caption{Webrecorder Capture of Seed 1}
+  \label{fig:2}
+\end{figure}
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Webrecorder_Seed1.PNG}
+  \caption{Webrecorder Capture of Seed 1 ( Flicker issue)}
+  \label{fig:3}
+\end{figure}
+\subsubsection{Seed 2}
+URL of Webrecorder: 
+\url{https://webrecorder.io/naumansiddiqui4/2014-indian-parliamentary-elections/20171009025254/http://www.elections.in/parliamentary-constituencies/2014-election-results.html}\\
+This seed has been captured with all the resources.The capture is perfectly fine with no issueapart from some advertisements missing but they are not of our concern.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Webrecorder_Seed2.PNG}
+  \caption{Webrecorder Capture of Seed 2}
+  \label{fig:4}
+\end{figure}
+\subsubsection{Seed 3}
+URL of Webrecorder: 
+\url{https://webrecorder.io/naumansiddiqui4/2014-indian-parliamentary-elections/20171009025431/http://eci.nic.in/eci_main1/statistical_reportge2014.aspx}\\
+This seed has captured the page but none of the links on the page work. The purpose of the seed was to archive Election Commission of India pages containing 2014 Parliamentary Election results but Webrecorder captured the URL and none of its outlinks. This capture is not a useful one.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Webrecorder_Seed3.PNG}
+  \caption{Webrecorder Capture of Seed 3}
+  \label{fig:5}
+\end{figure}
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Webrecorder_Seed31.PNG}
+  \caption{Webrecorder Capture of Seed 3 (No Links on the Page working)}
+  \label{fig:6}
+\end{figure}
+\subsubsection{Seed 4}
+URL of Webrecorder: 
+\url{https://webrecorder.io/naumansiddiqui4/2014-indian-parliamentary-elections/20171009025813/https://india.blogs.nytimes.com/2014/04/08/a-primer-on-indias-parliamentary-elections/}\\
+This seed has all the resources captured except for the videos in the news article. They just keep buffering and after sometime become unresponsive and do not even accept the play and pause commands.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Webrecorder_Seed4.PNG}
+  \caption{Webrecorder Capture of Seed 4(Videos not captured)}
+  \label{fig:7}
+\end{figure}
+\subsubsection{Seed 5}
+URL of Webrecorder: 
+\url{https://webrecorder.io/naumansiddiqui4/2014-indian-parliamentary-elections/20171009025914/https://www.nytimes.com/interactive/2014/04/06/world/asia/modi-gujarat-riots-timeline.html#/#time287_8190}\\
+This seed has all the resources captured. Even the timeline in the article works perfectly fine.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Webrecorder_Seed5.PNG}
+  \caption{Webrecorder Capture of Seed 5}
+  \label{fig:8}
+\end{figure}
+\subsubsection{Seed 6}
+URL of Webrecorder: 
+\url{https://webrecorder.io/naumansiddiqui4/2014-indian-parliamentary-elections/20171009030026/http://www.thehindu.com/news/national/no-guilty-feeling-about-gujarat-riots-says-modi/article4908704.ece}\\
+This seed has all the resources captured except for two blocks which show no resource found. I have no idea about the relevance if these resources as they could be advertisements or links to other related stories. 
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Webrecorder_Seed6.PNG}
+  \caption{Webrecorder Capture of Seed 6(Resource not found for two resources)}
+  \label{fig:9}
+\end{figure}
+\subsubsection{Seed 7}
+URL of Webrecorder: 
+\url{https://webrecorder.io/naumansiddiqui4/2014-indian-parliamentary-elections/20171009030327/https://thediplomat.com/2014/02/in-indias-national-election-dont-trust-the-polls/}\\
+This seed has all the resources captured.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Webrecorder_Seed7.PNG}
+  \caption{Webrecorder Capture of Seed 7}
+  \label{fig:10}
+\end{figure}
+\subsubsection{Seed 8}
+URL of Webrecorder: 
+\url{https://webrecorder.io/naumansiddiqui4/2014-indian-parliamentary-elections/20171009030515/https://www.washingtonpost.com/world/indias-muslims-worried-about-controversial-hindu-leader-as-national-elections-begin/2014/04/14/663c6376-468b-4969-bcf9-75f2007c6d2f_story.html?utm_term=.879e5a945709}\\
+This seed has all the resources captured.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Webrecorder_Seed8.PNG}
+  \caption{Webrecorder Capture of Seed 8}
+  \label{fig:11}
+\end{figure}
+\subsubsection{Seed 9}
+URL of Webrecorder: 
+\url{https://webrecorder.io/naumansiddiqui4/2014-indian-parliamentary-elections/20171009030537/https://en.wikipedia.org/wiki/Campaigning_in_the_Indian_general_election,_2014}\\
+This seed has all the resources captured.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Webrecorder_Seed9.PNG}
+  \caption{Webrecorder Capture of Seed 9}
+  \label{fig:12}
+\end{figure}
+\subsubsection{Seed 10}
+URL of Webrecorder: 
+\url{https://webrecorder.io/naumansiddiqui4/2014-indian-parliamentary-elections/20171009030647/https://www.huffingtonpost.com/2014/05/15/narendra-modi-views_n_5316284.html}\\
+This seed has all the resources captured.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Webrecorder_Seed10.PNG}
+  \caption{Webrecorder Capture of Seed 10}
+  \label{fig:13}
+\end{figure}
+\subsubsection{Seed 11}
+URL of Webrecorder: 
+\url{https://webrecorder.io/naumansiddiqui4/2014-indian-parliamentary-elections/20171009030716/http://www.constitutionnet.org/news/secularism-and-constitution-india-controversy-under-modi-administrationl}\\
+This seed has all the resources captured except for a resource missing in the Google comment section. But the missing resource is not of any importance, so it being missing does not effect the relevance of the capture.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Webrecorder_Seed11.PNG}
+  \caption{Webrecorder Capture of Seed 11}
+  \label{fig:14}
+\end{figure}
+\subsubsection{Seed 12}
+URL of Webrecorder: 
+\url{https://webrecorder.io/naumansiddiqui4/2014-indian-parliamentary-elections/20171009030819/http://www.hindustantimes.com/static/uttar-pradesh-communal-riot/anatomy-of-a-riot/l}\\
+This seed is a new article in three parts with part one being the seed URL and rest two parts can be traversed using the links on the page. Webrecorder has crawled all the three parts of the story and displays them as separate bookmarks in the user webpage. All the three individual bookmarks have all the resources but if we navigate to Article Three from the link provided in the Article One, the CSS and Images of the page go missing. It is very strange as on one snapshot webrecorder has all the resources for the page while navigating it through a link, it misses key resources. 
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Webrecorder_Seed12_1.PNG}
+  \caption{Webrecorder Capture of Seed 12(Article 3)}
+  \label{fig:15}
+\end{figure}
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Webrecorder_Seed12.PNG}
+  \caption{Webrecorder Capture of Seed 12(Article 3 with missing resources)}
+  \label{fig:16}
+\end{figure}
+\subsubsection{Seed 13}
+URL of Webrecorder: 
+\url{https://webrecorder.io/naumansiddiqui4/2014-indian-parliamentary-elections/20171009031053/https://thewire.in/58640/black-money-investigation-a-feast-of-vultures/}\\
+This seed has all the resources captured.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Webrecorder_Seed13.PNG}
+  \caption{Webrecorder Capture of Seed 13}
+  \label{fig:17}
+\end{figure}
+\subsubsection{Seed 14}
+URL of Webrecorder: 
+\url{https://webrecorder.io/naumansiddiqui4/2014-indian-parliamentary-elections/20171009031030/http://in.reuters.com/article/india-election-adani-modi/billionaire-adani-prospers-as-modi-stresses-development-idINDEEA3908220140410}\\
+This seed has two of the three images missing. It is strange as one of the image is perfectly captured but the rest two blur in the cature.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Webrecorder_Seed14.PNG}
+  \caption{Webrecorder Capture of Seed 14(Image missing)}
+  \label{fig:17}
+\end{figure}
+\subsubsection{Seed 15}
+URL of Webrecorder: 
+\url{https://webrecorder.io/naumansiddiqui4/2014-indian-parliamentary-elections/20171009031233/https://www.truthofgujarat.com/truth-gujarat-narendra-modis-criminal-culpability-2002-riots/}\\
+This seed is a website on Gujrat Riots but none of the links on the webpage work making this seed almost useless. Even the slider of images on the original URL do not contain all the images when viewed in full screen.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Webrecorder_Seed15.PNG}
+  \caption{Webrecorder Capture of Seed 14(Image in slider missing)}
+  \label{fig:18}
+\end{figure}
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Webrecorder_Seed15_1.PNG}
+  \caption{Webrecorder Capture of Seed 15(Links in the page not working)}
+  \label{fig:19}
+\end{figure}
+\subsection{Advantages and Disadvantages of Webrecorder}
+Advantages of Webrecorder:
+\begin{itemize}
+\item It is easy to use with just pasting the seed URLs in the Webrecorder's bookmark bar.
+\item It has a very simple webpage with all the useful information in one place.
+\item It is very efficient at recording single page seeds. It has an almost 100 p\% accuracy in capturing the contents for a single page.
+\item It is very useful when while surfing the internet you want to record any intresting URL.
+\end{itemize}
+Disadvantages of Webrecorder:
+\begin{itemize}
+\item It is very poor at capturing seeds which require crawling for related pages. It almost never crawls for the page outside the seed URL which makes it useless for archiving related pages.
+\item It did not capture the video and images for somepages which makes it unpredictable for pages containing images and videos.
+\item It makes the user paste single URL at a time unlike Archive-It which is a slight tedious process.
+\end{itemize}
+\section{Archive-It}
+URL of the Collection\\
+\url{https://partner.archive-it.org/536/collections/9543}\\
+The collection has fifteen seeds with a collection size of 91.9 GB and 2,362,468 documents. Thirteen of fifteen seeds are page only crawl and the rest two are standard crawls. The initial crawl frequency for all the pages was daily but it was later changed to weekly after a week. I faced an error while navigating in the Archive-It, the screenshot for the error have been attached.
+\begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/ArchiveIt.PNG}
+  \caption{Archive-It Collection Homepage}
+  \label{fig:20}
+\end{figure}
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/ArchiveIt_error.PNG}
+  \caption{Archive-It error on clicking Public Collection Link in the Overview page}
+  \label{fig:21}
+\end{figure}
+\subsection{Review of  Seeds}
+\subsubsection{Seed 1}
+This seed has sixtyone captures with five unique captures over the course of time.It is a standard crawl seed. All the captures have all the resources in the page are archived. All the links on the page are working and render archived pages.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Archive_1.PNG}
+  \caption{Archive-It Capture of Seed 1}
+  \label{fig:22}
+\end{figure}
+\subsubsection{Seed 2}
+This seed has ten captures with all unique captures over the course of time. All the captures have all the resources in the page are archived.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Archive_2.PNG}
+  \caption{Archive-It Capture of Seed 2}
+  \label{fig:23}
+\end{figure}
+\subsubsection{Seed 3}
+This seed has ten captures with six unique captures over the course of time. Nine out of ten captures have the seed archived without css and images. The last capture infact goes onto throwung an error message.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Archive_3_1.PNG}
+  \caption{Archive-It Capture of Seed 3 (No CSS and Images )}
+  \label{fig:24}
+\end{figure}
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Archive_3_2.PNG}
+  \caption{Archive-It Capture of Seed 3 (Error message for last capture )}
+  \label{fig:25}
+\end{figure}
+\subsubsection{Seed 4}
+This seed has sixteen captures with all unique captures over the course of time.All the captures have all the resources in the page are archived.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Archive_4.PNG}
+  \caption{Archive-It Capture of Seed 4}
+  \label{fig:26}
+\end{figure}
+\subsubsection{Seed 5}
+This seed has eighteen captures with seventeen unique captures over the course of time. It is a standard crawl page. All the links to the page are archived. But, none of the pages have images. The images in the archived version are missing or just go black.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Archive_5.PNG}
+  \caption{Archive-It Capture of Seed 5(All the images are missing)}
+  \label{fig:27}
+\end{figure}
+\subsubsection{Seed 6}
+This seed has twentysix captures with eighteen unique captures over the course of time.All the captures have all the resources in the page are archived.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Archive_6.PNG}
+  \caption{Archive-It Capture of Seed 6}
+  \label{fig:28}
+\end{figure}
+\subsubsection{Seed 7}
+This seed has twentytwo captures with twentyone unique captures over the course of time.All the captures have all the resources in the page are archived except for the images.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Archive_7.PNG}
+  \caption{Archive-It Capture of Seed 7(Images are missing)}
+  \label{fig:29}
+\end{figure}
+\subsubsection{Seed 8}
+This seed has ten captures with five unique captures over the course of time.All the captures have all the resources in the page are archived except for the images. It is a three part story and the seed was set to page only crawl. I could access the other stories as well but they missed their CSS and images.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Archive_8.PNG}
+  \caption{Archive-It Capture of Seed 8}
+  \label{fig:30}
+\end{figure}
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Archive_8_1.PNG}
+  \caption{Archive-It Capture of Seed 8(Images are missing)}
+  \label{fig:31}
+\end{figure}
+\subsubsection{Seed 9}
+This seed has fourteen captures with thirteen unique captures over the course of time..All the captures have all the resources in the page are archived except for the image gallery at the bottom of the page which does not work.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Archive_9.PNG}
+  \caption{Archive-It Capture of Seed 9(Image slider not working)}
+  \label{fig:32}
+\end{figure}
+\subsubsection{Seed 10}
+This seed has fourty captures with five unique captures over the course of time.It is a standard crawl seed. All the captures have all the resources in the page are archived. All the links on the page are working and render archived pages.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Archive_10.PNG}
+  \caption{Archive-It Capture of Seed 10}
+  \label{fig:33}
+\end{figure}
+\subsubsection{Seed 11}
+This seed has fifteen captures with five unique captures over the course of time. The captures before last modification have all the resources in the page are archived. The captures after the last modification display error denied page. 
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Archive_11.PNG}
+  \caption{Archive-It Capture of Seed 11}
+  \label{fig:34}
+\end{figure}
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Archive_11_1.PNG}
+  \caption{Archive-It Capture of Seed 11(Error meesage after last modification to the page)}
+  \label{fig:35}
+\end{figure}
+\subsubsection{Seed 12}
+This seed has fifteen captures with thirteen unique captures over the course of time. The capture does not load more than 10\% of the content. This page contains a timeline slider attached to the rest of the story, so as the timeline is not captured the rest of the story is also not available. 
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Archive_12.PNG}
+  \caption{Archive-It Capture of Seed 12(Rest of the story missing, as the timeline missing)}
+  \label{fig:35}
+\end{figure}
+\subsubsection{Seed 13}
+This seed has twentysix captures with three unique captures over the course of time. It is a standard crawl page with all the links being functional. All the captures have all the resources in the page are archived.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Archive_13.PNG}
+  \caption{Archive-It Capture of Seed 13}
+  \label{fig:36}
+\end{figure}
+\subsubsection{Seed 14}
+This seed has sixteen captures with one unique captures over the course of time. All the captures have all the resources in the page are archived.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Archive_14.PNG}
+  \caption{Archive-It Capture of Seed 14}
+  \label{fig:37}
+\end{figure}
+\subsubsection{Seed 15}
+This seed has sixteen captures with thirteen unique captures over the course of time. All the captures have all the resources in the page are archived.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Archive_15.PNG}
+  \caption{Archive-It Capture of Seed 15}
+  \label{fig:38}
+\end{figure}
+\subsection{Advantages and Disadvantages of Archive-It}
+Advantages of Archive-It:
+\begin{itemize}
+\item It is a standard web-archiving tool to create your own personalized as well as public collection.
+\item It is very useful in standard crawl unlike Webrecorder. 
+\item It captures the modifications made to the seeds over the time by setting up a crawl frequency which is a very useful way of showing changes to a page.
+\item It has a multiple seed URL paste option which makes the work easy for the end users.
+\item It is very useful when you building a collection which needs to be crawled after specific time for checking on the modifications to the page.
+\end{itemize}
+Disadvantages of Archive-It:
+\begin{itemize}
+\item It is very poor at pages which have javascript on the webpage. I feel it is a limitation of their Heretrix crawl engine.
+\item It did not capture the video and images for somepages which makes it unpredictable for pages containing images and videos.
+\item For some captures it displayed me an error without any content which are hard to understand for any naive user.
+\end{itemize}
+\section{WAIL}
+I am running WAIL on Windows. It took me some time to setup for the first time, but it runs perfectly fine if I run the executable with administrator privileges. It lists eighteen seeds with a size of 103 MB.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Wail.PNG}
+  \caption{WAIL Interface}
+  \label{fig:39}
+\end{figure}
+\subsection{Review of  Seeds}
+\subsubsection{Seed 1}
+This seed has two captures. On replaying the archived copies it displays an error.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Wail_1.PNG}
+  \caption{Wail Capture of Seed 1(Error on replay)}
+  \label{fig:40}
+\end{figure}
+\subsubsection{Seed 2}
+This seed has one captures. On replaying the archived copies it displays everything in place except for two blurred images which could be due to late loading of the image onto the webpage.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Wail_2.PNG}
+  \caption{Wail Capture of Seed 2(Blurred Images)}
+  \label{fig:41}
+\end{figure}
+\subsubsection{Seed 3}
+The seed has one capture. It was a standard same domain only crawl. None of the links on the page work, but I have no idea are they on the same domain. The capture has all the contents but misses the slider images.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Wail_3.PNG}
+  \caption{Wail Capture of Seed 3(Missing Images)}
+  \label{fig:42}
+\end{figure}
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Wail_3_1.PNG}
+  \caption{Wail Capture of Seed 3(Links not working)}
+  \label{fig:43}
+\end{figure}
+\subsubsection{Seed 4}
+This seed has two captures. Both the captures have all the resources of the page.  
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Wail_4.PNG}
+  \caption{Wail Capture of Seed 4}
+  \label{fig:43}
+\end{figure}
+\subsubsection{Seed 5}
+This seed has one capture. The capture has all the resources of the page.  
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Wail_5.PNG}
+  \caption{Wail Capture of Seed 5}
+  \label{fig:44}
+\end{figure}
+\subsubsection{Seed 6}
+This seed has one capture. The capture has all the resources of the page.  
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Wail_6.PNG}
+  \caption{Wail Capture of Seed 6}
+  \label{fig:45}
+\end{figure}
+\subsubsection{Seed 7}
+\url{http://www.hindustantimes.com/static/uttar-pradesh-communal-riot/anatomy-of-a-riot/}\\
+No capture found
+\subsubsection{Seed 8}
+This seed has one capture. The capture has all the resources of the page.  
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Wail_8.PNG}
+  \caption{Wail Capture of Seed 8}
+  \label{fig:47}
+\end{figure}
+\subsubsection{Seed 9}
+\url{https://www.washingtonpost.com/world/indias-muslims-worried-about-controversial-hindu-leader-as-national-elections-begin/2014/04/14/663c6376-468b-4969-bcf9-75f2007c6d2f_story.html?utm_term=.849596dc9831}\\
+No capture 
+\subsubsection{Seed 10}
+This seed has one capture. The capture has all the resources of the page.   
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Wail_10.PNG}
+  \caption{Wail Capture of Seed 10}
+  \label{fig:49}
+\end{figure}
+\subsubsection{Seed 11}
+This seed has one capture. The capture has all the resources of the page.   
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Wail_11.PNG}
+  \caption{Wail Capture of Seed 11}
+  \label{fig:50}
+\end{figure}
+\subsubsection{Seed 12}
+This seed has one capture. The capture does not load more than 10\% of the content. This page contains a timeline slider attached to the rest of the story, so as the timeline is not captured the rest of the story is also not available.    
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Wail_12.PNG}
+  \caption{Wail Capture of Seed 12 (Timeline missing, so rest of the content goes missing)}
+  \label{fig:51}
+\end{figure}
+\subsubsection{Seed 13}
+This seed has three capture.The captures display an error.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Wail_13.PNG}
+  \caption{Wail Capture of Seed 13 (Error message)}
+  \label{fig:52}
+\end{figure}
+\subsubsection{Seed 14}
+This seed has one capture. The capture has all the resources of the page.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Wail_14.PNG}
+  \caption{Wail Capture of Seed 14}
+  \label{fig:53}
+\end{figure}
+\subsubsection{Seed 15}
+This seed has one capture. The capture has all the resources of the page.
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/Wail_15.PNG}
+  \caption{Wail Capture of Seed 15}
+  \label{fig:54}
+\end{figure}
+\subsection{Advantages and Disadvantages of WAIL}
+Advantages of WAIL:
+\begin{itemize}
+\item It is easy to use with just pasting the seed URLs in the add seed URL.
+\item It has a very simple webpage with all the useful information in one place.
+\item It is very efficient at recording single page seeds. It has an almost 100 p\% accuracy in capturing the contents for a single page.
+\item It is very useful for building personal archives.
+\end{itemize}
+Disadvantages of WAIL:
+\begin{itemize}
+\item A few captures just threw error on treplaying them in pywayback.
+\item It is very poor at capturing seeds which require crawling for related pages. It almost never crawls for the page outside the seed URL which makes it useless for archiving related pages.
+\item It did not capture the video and images for somepages which makes it unpredictable for pages containing images and videos.
+\item It makes the user paste single URL at a time unlike Archive-It which is a slight tedious process.
+\item It uses a multi-threaded approach to run each crawl in a separate thread which takes a toll on the performance of a personal machine.
+\end{itemize}
+\section{WARCreate}
+It is very slow to respond in generating WARCs. It makes me feel very unpredictable of when the page is going to have a WARC.
+\subsection{Review of  Seeds}
+\subsubsection{Seed 1}
+The warc file has one memento which on replaying in WAIL shows a pywayback error. 
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/WarCreate_1.PNG}
+  \caption{WARCreate Capture of Seed 1(Error Message)}
+  \label{fig:55}
+\end{figure}
+\subsubsection{Seed 2}
+The warc file has two mementos which on replaying in WAIL shows all the resources with some related videos missing. 
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/WarCreate_2.PNG}
+  \caption{WARCreate Capture of Seed 2}
+  \label{fig:56}
+\end{figure}
+\subsubsection{Seed 3}
+The warc file has one memento which on replaying in WAIL shows all the resources. This page was supposed to be a standard crawl but WARCreate does not support it, so it is good for nothing seed.  
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/WarCreate_3.PNG}
+  \caption{WARCreate Capture of Seed 3}
+  \label{fig:57}
+\end{figure}
+\subsubsection{Seed 4}
+The warc file has one memento which on replaying in WAIL shows all the resources except for some advertisements. 
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/WarCreate_4.PNG}
+  \caption{WARCreate Capture of Seed 4}
+  \label{fig:59}
+\end{figure}
+\subsubsection{Seed 5}
+The warc file has one memento which on replaying in WAIL shows all the resources except forthe main image on the article. 
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/WarCreate_5.PNG}
+  \caption{WARCreate Capture of Seed 5(Primary Image missing)}
+  \label{fig:60}
+\end{figure}
+\subsubsection{Seed 6}
+The warc file has one memento which on replaying in WAIL shows an error message. 
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/WarCreate_6.PNG}
+  \caption{WARCreate Capture of Seed 6(Error Message)}
+  \label{fig:61}
+\end{figure}
+\subsubsection{Seed 7}
+The warc file has one memento which on replaying in WAIL shows an error message. 
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/WarCreate_7.PNG}
+  \caption{WARCreate Capture of Seed 7(Error Message)}
+  \label{fig:62}
+\end{figure}
+\subsubsection{Seed 8}
+The warc file has one memento which on replaying in WAIL shows an error message. 
+ \begin{figure}[ht] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{Screenshots/WarCreate_8.PNG}
+  \caption{WARCreate Capture of Seed 8(Error Message)}
+  \label{fig:63}
+\end{figure}
+\subsection{Advantages and Disadvantages of WAIL}
+Advantages of WAIL:
+\begin{itemize}
+\item It is easy to use with just a click of button as Google Chrome extention.
+
+\end{itemize}
+Disadvantages of WAIL:
+\begin{itemize}
+\item It did not capture all the seeds.
+\item It takes long time in generating WARCs and most times it is not responsive making the user wondering about its functioning.
+\item It is the poorest tool we are using to build this collection.
+\item Even its replay does not have a satisfactory result.
+\end{itemize}
+\section{Highlights of the Collection}
+The fifteen seeds are just a glimpse about the series of event that unfolded before and after the 2014 Parliamentary Elections. This collection can help a user understand the basics functioning of Indian Democracy. It sheds light on the 2014 Parliamentary Elections campaign and results. It also shows why this election was considered a turning point in Indian politics. It shows how a candidate with such a genocide behind his name becomes Prime Minister in a secular nation of India.  
+% that's all folks
+\end{document}
+
+
